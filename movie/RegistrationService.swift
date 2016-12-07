@@ -83,17 +83,6 @@ class RegistrationService {
                         //network failure
                         delegate.registrationFailed("Network not responding")
                     }
-                    
-                    // Get value by key
-//                    if let movieList = convertedJsonIntoDict as? [String: AnyObject] {
-//                        if let movieDictionary = movieList["results"] as? NSMutableArray {
-//                            for item in movieDictionary {
-//                        
-//                                let title = item["title"] as? String
-//                                print(title)
-//                            }
-//                        }
-//                    }
                 }
             } catch let error as NSError {
                 print(error.localizedDescription)

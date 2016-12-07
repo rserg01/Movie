@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "59B137FA1DD4627500998AA8"
-               BuildableName = "movie.app"
-               BlueprintName = "movie"
-               ReferencedContainer = "container:movie.xcodeproj">
+               BuildableName = "CalataDemo.app"
+               BlueprintName = "CalataDemo"
+               ReferencedContainer = "container:CalataDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "59B137FA1DD4627500998AA8"
-            BuildableName = "movie.app"
-            BlueprintName = "movie"
-            ReferencedContainer = "container:movie.xcodeproj">
+            BuildableName = "CalataDemo.app"
+            BlueprintName = "CalataDemo"
+            ReferencedContainer = "container:CalataDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "59B137FA1DD4627500998AA8"
-            BuildableName = "movie.app"
-            BlueprintName = "movie"
-            ReferencedContainer = "container:movie.xcodeproj">
+            BuildableName = "CalataDemo.app"
+            BlueprintName = "CalataDemo"
+            ReferencedContainer = "container:CalataDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "59B137FA1DD4627500998AA8"
-            BuildableName = "movie.app"
-            BlueprintName = "movie"
-            ReferencedContainer = "container:movie.xcodeproj">
+            BuildableName = "CalataDemo.app"
+            BlueprintName = "CalataDemo"
+            ReferencedContainer = "container:CalataDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

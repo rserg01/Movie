@@ -24,7 +24,7 @@
 		5967E51A1DF7FB9700BE6226 /* RegistrationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
 		596B3E9C1DE3C0D800116988 /* RegistrationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		59B103B91DE2A6E800F1EA5F /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
-		59B137FB1DD4627500998AA8 /* movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B137FB1DD4627500998AA8 /* CalataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B137FE1DD4627500998AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59B138001DD4627500998AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59B138031DD4627500998AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		59B137FC1DD4627500998AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59B137FB1DD4627500998AA8 /* movie.app */,
+				59B137FB1DD4627500998AA8 /* CalataDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59B137FA1DD4627500998AA8 /* movie */ = {
+		59B137FA1DD4627500998AA8 /* CalataDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59B1380D1DD4627600998AA8 /* Build configuration list for PBXNativeTarget "movie" */;
+			buildConfigurationList = 59B1380D1DD4627600998AA8 /* Build configuration list for PBXNativeTarget "CalataDemo" */;
 			buildPhases = (
 				59B137F71DD4627500998AA8 /* Sources */,
 				59B137F81DD4627500998AA8 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = movie;
+			name = CalataDemo;
 			productName = movie;
-			productReference = 59B137FB1DD4627500998AA8 /* movie.app */;
+			productReference = 59B137FB1DD4627500998AA8 /* CalataDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 59B137F61DD4627500998AA8 /* Build configuration list for PBXProject "movie" */;
+			buildConfigurationList = 59B137F61DD4627500998AA8 /* Build configuration list for PBXProject "CalataDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59B137FA1DD4627500998AA8 /* movie */,
+				59B137FA1DD4627500998AA8 /* CalataDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calata.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CalataDemo;
 				PROVISIONING_PROFILE = "b3bd9ca9-d332-46c0-9d56-52bc7c0d38fa";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,7 +288,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calata.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CalataDemo;
 				PROVISIONING_PROFILE = "b3bd9ca9-d332-46c0-9d56-52bc7c0d38fa";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59B137F61DD4627500998AA8 /* Build configuration list for PBXProject "movie" */ = {
+		59B137F61DD4627500998AA8 /* Build configuration list for PBXProject "CalataDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59B1380B1DD4627600998AA8 /* Debug */,
@@ -306,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59B1380D1DD4627600998AA8 /* Build configuration list for PBXNativeTarget "movie" */ = {
+		59B1380D1DD4627600998AA8 /* Build configuration list for PBXNativeTarget "CalataDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59B1380E1DD4627600998AA8 /* Debug */,
