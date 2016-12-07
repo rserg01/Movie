@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		596B3E9D1DE3C0D800116988 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B3E9C1DE3C0D800116988 /* NetworkService.swift */; };
+		5967E5191DF7EAF000BE6226 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5967E5181DF7EAF000BE6226 /* RegistrationViewController.swift */; };
+		5967E51B1DF7FB9700BE6226 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5967E51A1DF7FB9700BE6226 /* RegistrationModel.swift */; };
+		596B3E9D1DE3C0D800116988 /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B3E9C1DE3C0D800116988 /* RegistrationService.swift */; };
 		59B103BA1DE2A6E800F1EA5F /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B103B91DE2A6E800F1EA5F /* MovieModel.swift */; };
 		59B137FF1DD4627500998AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B137FE1DD4627500998AA8 /* AppDelegate.swift */; };
 		59B138011DD4627500998AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B138001DD4627500998AA8 /* ViewController.swift */; };
 		59B138041DD4627500998AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B138021DD4627500998AA8 /* Main.storyboard */; };
 		59B138061DD4627500998AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B138051DD4627500998AA8 /* Assets.xcassets */; };
 		59B138091DD4627500998AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B138071DD4627500998AA8 /* LaunchScreen.storyboard */; };
+		59F245CF1DF80A4300BC2281 /* SignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F245CE1DF80A4300BC2281 /* SignInService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		596B3E9C1DE3C0D800116988 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5967E5181DF7EAF000BE6226 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		5967E51A1DF7FB9700BE6226 /* RegistrationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		596B3E9C1DE3C0D800116988 /* RegistrationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		59B103B91DE2A6E800F1EA5F /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		59B137FB1DD4627500998AA8 /* movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B137FE1DD4627500998AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		59B138051DD4627500998AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B138081DD4627500998AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59B1380A1DD4627600998AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F245CE1DF80A4300BC2281 /* SignInService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,7 @@
 		59B137FD1DD4627500998AA8 /* movie */ = {
 			isa = PBXGroup;
 			children = (
-				596B3E9C1DE3C0D800116988 /* NetworkService.swift */,
+				596B3E9C1DE3C0D800116988 /* RegistrationService.swift */,
 				59B137FE1DD4627500998AA8 /* AppDelegate.swift */,
 				59B138001DD4627500998AA8 /* ViewController.swift */,
 				59B138021DD4627500998AA8 /* Main.storyboard */,
@@ -66,6 +72,9 @@
 				59B138071DD4627500998AA8 /* LaunchScreen.storyboard */,
 				59B1380A1DD4627600998AA8 /* Info.plist */,
 				59B103B91DE2A6E800F1EA5F /* MovieModel.swift */,
+				5967E5181DF7EAF000BE6226 /* RegistrationViewController.swift */,
+				5967E51A1DF7FB9700BE6226 /* RegistrationModel.swift */,
+				59F245CE1DF80A4300BC2281 /* SignInService.swift */,
 			);
 			path = movie;
 			sourceTree = "<group>";
@@ -102,6 +111,7 @@
 				TargetAttributes = {
 					59B137FA1DD4627500998AA8 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M24ZKV33Z2;
 					};
 				};
 			};
@@ -143,8 +153,11 @@
 			files = (
 				59B103BA1DE2A6E800F1EA5F /* MovieModel.swift in Sources */,
 				59B138011DD4627500998AA8 /* ViewController.swift in Sources */,
-				596B3E9D1DE3C0D800116988 /* NetworkService.swift in Sources */,
+				5967E51B1DF7FB9700BE6226 /* RegistrationModel.swift in Sources */,
+				596B3E9D1DE3C0D800116988 /* RegistrationService.swift in Sources */,
 				59B137FF1DD4627500998AA8 /* AppDelegate.swift in Sources */,
+				5967E5191DF7EAF000BE6226 /* RegistrationViewController.swift in Sources */,
+				59F245CF1DF80A4300BC2281 /* SignInService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,11 +268,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Safeway Inc.";
 				INFOPLIST_FILE = movie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.movie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vons.j4u.entprod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3bd9ca9-d332-46c0-9d56-52bc7c0d38fa";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -268,11 +283,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Safeway Inc.";
 				INFOPLIST_FILE = movie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.movie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vons.j4u.entprod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3bd9ca9-d332-46c0-9d56-52bc7c0d38fa";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Movie {
+class Movie : NSObject {
     
     var id : Double
     var posterPath : String?
@@ -56,10 +56,6 @@ class Movie {
         self.video = movieDictionary["video"] as! Bool
         self.voteAverage = movieDictionary["vote_average"] as? Double
         self.genreIds = movieDictionary["genre_ids"] as! [Genre]
-    }
-    
-    static func downloadAllMovies -> [Movie] {
-        
     }
     
 }
