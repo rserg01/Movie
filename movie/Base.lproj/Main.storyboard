@@ -9,7 +9,7 @@
         <!--Sign In-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Sign In" id="BYZ-38-t0r" customClass="ViewController" customModule="movie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sign In" id="BYZ-38-t0r" customClass="ViewController" customModule="CalataDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -78,6 +78,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.34999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signInAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FyT-vj-6Jn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFC-ud-uhJ">
                                 <rect key="frame" x="30" y="335" width="133" height="30"/>
@@ -129,7 +132,7 @@
         <!--Registration-->
         <scene sceneID="c6o-1I-6L8">
             <objects>
-                <viewController storyboardIdentifier="RegistrationViewController" title="Registration" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VuQ-YE-PCT" customClass="RegistrationViewController" customModule="movie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegistrationViewController" title="Registration" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VuQ-YE-PCT" customClass="RegistrationViewController" customModule="CalataDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="P3E-SD-JNx"/>
                         <viewControllerLayoutGuide type="bottom" id="Ejc-eJ-syj"/>
